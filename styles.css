@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+/* Estilos para la sección "proyectos" */
+#proyectos {
+    padding: 20px;
+}
+
+.proyecto {
+    margin-bottom: 30px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #1e1e1e;
+    color: #7d7d7d;
+    padding: 50px 30px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
