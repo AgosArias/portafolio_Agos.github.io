@@ -12,15 +12,22 @@ body {
 }
 
 header {
-	background-color: #212121;
-	text-align: center;
-	width: 100%;
+  background-color: hsl(332, 98%, 43%);	text-align: left;
+color: white;
 	height: auto;
 	background-size: cover;
 	background-attachment: fixed;
-	position: relative;
 	overflow: hidden;
-	border-radius: 0 0 85% 85% / 30%;
+  font-family: 'Poppins', sans-serif;;
+  font-size: 50px;    
+  padding: 0px 0;
+
+}
+
+
+header img {
+  width: 3%;
+  margin-left: 2%;
 }
 
 body, html {
@@ -40,14 +47,14 @@ body, html {
 
 
 footer {
-    background-color: #1e1e1e;
-    color: #7d7d7d;
+    background-color:  hsl(332, 98%, 43%);
+    color: #ffffff;
     padding: 50px 30px;
     margin-top: 50px;
 }
 
 footer a {
-    color: #7d7d7d;
+    color: #ffcece;
     text-decoration: none;
 }
 
@@ -55,28 +62,29 @@ footer a:hover {
     color: #fff;
 }
 .card {
-  width: 100%;
-  height: 200px;
-  border-radius: 24px;
-  background: #212121;
+  width: 80%;
+  height: 120px;
+  border-radius: 10px;
+  background:  hsl(332, 98%, 43%);
   display: flex;
   gap: 5px;
   padding: .4em;
+  margin: 7%;
 }
 
-.card p {
-  height: 90%;
+.card p {width: 100%;
+  height: auto;
   flex: 1;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 14px;
+  border-radius: 8px;
   transition: all .5s;
-  background: #212121;
+  background: hsl(332, 98%, 43%);
   border: 0px solid #ff5a91;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 20px;
+  border: 2px;
 }
 
 .card p:hover {
@@ -111,7 +119,8 @@ footer a:hover {
   animation: AnimationName 3s ease infinite;
   transition: .4s ease-in-out;
   border-radius: 7px;
-  cursor: pointer;
+  cursor: pointer;margin-right: 30px;
+  
 }
 
 .fl {
@@ -128,12 +137,15 @@ footer a:hover {
 .fl:hover .fullscreen_svg {
   fill: white;
 }
+.main {
+  display: inline-block;
 
+}
 .fullscreen {
   width: 1.5em;
   height: 1.5em;
   border-radius: 5px;
-  background-color: #727890;
+  background-color: hsl(332, 98%, 43%);
   margin: 1em;
   margin-right: 0.5em;
   display: flex;
@@ -154,7 +166,7 @@ footer a:hover {
   position: absolute;
   width: 15em;
   height: 13em;
-  background-color: rgba(30, 31, 38, 0.575);
+  background-color: hsl(332, 98%, 43%);
   border-radius: 7px;
   margin-top: -4.7em;
   margin-left: 0.7em;
@@ -324,12 +336,12 @@ footer a:hover {
 
 
 
-/* The Main Switch */
 
 .card_content {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 button {
@@ -344,11 +356,11 @@ button {
   border: 1px solid white;
   background-color: transparent;
   color: white;
-  transition: .4s ease-in-out;
+  transition: .4s ease-in-out;    display: inline-block;    text-align: center;
 }
 
 button::after {
-  content: "(Hold Me)";
+  content: "(click aquí)";
   opacity: 0;
   position: absolute;
 }
@@ -409,3 +421,315 @@ button:active::before {
   color: white;
   opacity: 1;
 }
+
+
+.header {
+  background-color: hsl(332, 98%, 43%);
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.body {
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.skill-name {
+  width: 100px;
+  font-size: 16px;
+}
+
+.html:hover {
+  color: blue;
+}
+
+.css:hover {
+  color: purple;
+}
+
+.aa:hover {
+  color: red;
+}
+.uipath:hover {
+  color: rgb(233, 93, 0);
+}
+
+.pa:hover {
+  color: rgb(91, 222, 255);
+}
+
+.pb:hover {
+  color: rgb(226, 230, 6);
+}
+.python:hover {
+  color: rgb(98, 63, 255);
+}
+.sqlserver:hover {
+  color: rgb(225, 103, 230);
+}
+.skill-level {
+  width: 250px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.skill-percent {
+  background-color: hsl(332, 98%, 43%);
+  height: 100%;
+}
+
+.skill-percent-number {
+  margin-left: 1px;
+  font-size: 16px;
+}
+.main-container {
+  display: flex;
+  margin-top: 100px;
+  font-family: "Helvetica Neue", sans-serif;
+width: 80%;
+margin: 200px;
+
+
+}
+
+.about-me {
+  flex: 1;
+  padding: 0px;
+  font-size: 25px;
+  text-align: justify;
+margin-right: 90px;
+
+}
+ h3{
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+  font-family: "Homer Simpson UI", monospace;
+}
+
+.skills {
+
+  width: 100px;
+  height: 490px;
+  margin: 100px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  color: #000000;  flex: 1;
+  padding: 0px;
+  display: block;
+}
+
+.skills:hover {
+  border-bottom: 5px solid violet;
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+}
+
+.project_card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  
+}
+.project_card .project_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 900PX;
+  margin: 3%;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+  
+}
+
+
+.project_card .project_image:last-child {
+  width: 50%;
+
+}
+
+.project_card .project_image img{
+  border-radius: 2%;
+  width: 100%;
+}
+
+
+.project_card .project_image:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.project_card:hover > .project_image:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+.btn:link,
+.btn:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+ left: 70%;
+}
+
+.btn:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btn:active {
+ transform: translateY(-3px);
+}
+
+.btn::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btn:hover::after {
+ background-color: rgb(0, 238, 255);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+
+
+.description {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 500px;
+  margin: 3%;
+  font-family: "Homer Simpson UI", monospace;
+
+}
+
+.description h1 {
+  font-size: 30px;
+  margin: 40px;
+}
+
+.description h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+
+}
+
+.presentation img{
+  width: 170px;
+  border-radius: 1000%;
+  margin: 10%;
+}
+.presentation_card{
+ text-align: center;
+ background-color: white;
+  display: inline-flex;
+  color: black; 
+  gap: 100px;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  
+}
+
+
+.presentation_card {
+  width: 1000px; /* Adjust the width as needed */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+  margin-left: 10%;    
+  align-items: center;
+
+
+}
+
+
+.presentation_card .front-content p {
+    font-size: 50px;
+    font-weight: 700;
+    opacity: 1;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    margin-left: 10%;
+}
+
+.presentation_card .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  color: #e8e8e8;
+    line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translatex(96%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  display: inline-flex;
+  font-size: 30px;
+  font-family:  'Times New Roman', Times, serif  ;
+}
+
+.presentation_card .content p{
+margin-left: 10%;
+}
+.presentation_card:hover .content {
+  transform: translateY(0);
+}
+
+.presentation_card:hover .front-content {
+  transform: translateX(20%);
+}
+
+.presentation_card:hover .front-content p {
+  opacity: 0;
+}
+
