@@ -11,24 +11,6 @@ body {
     position: relative;
 }
 
-header {
-  background-color: hsl(332, 98%, 43%);	text-align: left;
-color: white;
-	height: auto;
-	background-size: cover;
-	background-attachment: fixed;
-	overflow: hidden;
-  font-family: 'Poppins', sans-serif;;
-  font-size: 50px;    
-  padding: 0px 0;
-
-}
-
-
-header img {
-  width: 3%;
-  margin-left: 2%;
-}
 
 body, html {
     font-family: 'Poppins', sans-serif;
@@ -63,7 +45,7 @@ footer a:hover {
 }
 .card {
   width: 80%;
-  height: 120px;
+  height: 180px;
   border-radius: 10px;
   background:  hsl(332, 98%, 43%);
   display: flex;
@@ -101,6 +83,7 @@ footer a:hover {
   letter-spacing: .1em;
   width: 100%; 
   height: 100%; 
+  border-radius: 20px;
 }
 /*
 .card p:hover img {
@@ -360,7 +343,7 @@ button {
 }
 
 button::after {
-  content: "(click aquí)";
+  content: "(click me)";
   opacity: 0;
   position: absolute;
 }
@@ -423,7 +406,7 @@ button:active::before {
 }
 
 
-.header {
+.header_skill {
   background-color: hsl(332, 98%, 43%);
   color: #000000;
   padding: 20px;
@@ -733,3 +716,46 @@ margin-left: 10%;
   opacity: 0;
 }
 
+
+
+
+
+
+
+
+header {
+  background-color: hsl(332, 98%, 43%);
+  color: white;
+  height: 75px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 1000%;
+}
+header nav{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  
+}
+
+header nav .menu{
+  display: flex;
+  width: 400%;
+}
+.menu img {
+  width: 7%;
+}
+
+.language {
+  display: inline-flex;
+  margin-left: 0px; /* Cambiar margin-right a margin-left */
+}
+
+.language img {
+  width: 30%;
+}
