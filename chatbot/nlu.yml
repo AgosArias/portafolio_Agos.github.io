@@ -1,0 +1,17 @@
+version: "2.0"
+
+nlu:
+- intent: informar_reclutador
+  examples: |
+    - Soy reclutador
+    - Trabajo en recursos humanos
+    - Busco candidatos
+
+- intent: proporcionar_edad
+  examples: |
+    - Tengo {edad} años
+    - Mi edad es {edad}
+    - Tengo {edad} años de edad
+
+...
+
